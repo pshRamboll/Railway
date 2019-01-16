@@ -15,7 +15,8 @@ namespace RObjects
         public Guid guid { get; set; }
         public Curve Curve { get; set; }
         public double Inclination { get; set; }
-        public int material { get; set; }
+        public string Material { get; set; }
+        public int Size { get; set; }
 
         public Tunnel()
         {
